@@ -10,10 +10,9 @@ const memberNonaktifAktif = new Chart(idChart, {
       {
         pointStyle: "circle",
         data: [aktifMember, nonaktifMember],
-        backgroundColor: ["#F8A23E", "#ADDE34"],
+        backgroundColor: ["#3B71CA", "#E6E6E6"],
         hoverOffset: 4,
         borderWidth: 0,
-        borderColor: ["#F8A23E", "#ADDE34"],
       },
     ],
   },
